@@ -16,7 +16,7 @@ class TestCalc(SimpleTestCase):
         x = 2
         y = 3
 
-        res = calc.add(x,y)
+        res = calc.add(x, y)
 
         self.assertEquals(res, 5)
 
@@ -26,6 +26,6 @@ class TestCalc(SimpleTestCase):
         x = 3
         y = 2
 
-        res = calc.subtract(x,y)
+        res = calc.subtract(x, y)
 
         self.assertEquals(res, 1)
